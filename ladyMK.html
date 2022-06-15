@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>LadyMk.com</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="tabs.css">
+</head>
+
+
+<body>
+    <main>
+        <section id="landing-page">
+            <div class="nav-lines-container">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+            <header class="title-container">
+                <h2 class="title">Lady M.K.</h2>
+            </header>
+        </section>
+
+        <section class="nav-section">
+            <button class="close-nav-section">X</button>
+            <section class="nav-sec-link">
+                <ul>
+                    <li><a class="nav-links" href="#menu">Menu</a></li>
+                    <li><a class="nav-links" href="#restaurant-info">Restaurant Information</a></li>
+                </ul>
+            </section>
+        </section>
+
+        <section id="menu">
+            <h2 class="menu-title">Menu</h2>
+            <section class="tab-section">
+                <section class="tabs">
+                    <button class="tabHeader active-tab" data-tab="1">Food</button>
+                    <button class="tabHeader" data-tab="2">Drinks</button>
+                    <button class="tabHeader" data-tab="3">Snacks</button>
+                    <button class="tabHeader" data-tab="4">Appetizers</button>
+                </section>
+                
+                    <section id="tabContent-1" class="tabContent show-tab">
+                        <p>1. Fried Rice & Beef<span class="menu-price">#3300</span></p>
+                        <p>2. Spaghetti<span class="menu-price">#3300</span></p>
+                        <p>3. Asun (Goat Meat)<span class="menu-price">#3300</span></p>
+                        <p>4. Vegetables Soup<span class="menu-price">#3300</span></p>
+                    </section>
+                    <section id="tabContent-2" class="tabContent hide-tab">
+                        <p>1. Fruities and Smoothies<span class="menu-price">#300</span></p>
+                        <p>2. Soft Drinks<span class="menu-price">#300</span></p>
+                        <p>3. Italian Wine<span class="menu-price">#300</span></p>
+                        <p>4. Yorghurt<span class="menu-price">#300</span></p>  
+                    </section>
+                    <section id="tabContent-3" class="tabContent hide-tab">
+                        <p>1. Egg-Rolls<span class="menu-price">#33</span></p>
+                        <p>2. Smal Chops<span class="menu-price">#33</span></p>
+                        <p>3. Pizza<span class="menu-price">#33</span></p>
+                    </section>
+                    <section id="tabContent-4" class="tabContent hide-tab">
+                        <p>1. Ice Cream<span class="menu-price">#3300</span></p>
+                        <p>2. cake<span class="menu-price">#3300</span></p>
+                    </section>
+                
+            </section>
+        </section>
+
+        <section id="restaurant-info">
+            <section class="info-container">
+                <div class="address-info">
+                    <h2 class="restaurant-info-title">Address</h2>
+                    <p>123, College Road</p>
+                    <p>Lagos.Ogba</p>
+                </div>
+                <div class="business-hours">
+                    <h2 class="restaurant-info-title">Business Hours</h2>
+                    <p>Monday-Friday: 8am-6pm</p>
+                    <p>Saturday-Sunday: 2pm-8pm</p>
+                </div>
+                <div class="pick-up">
+                    <h2 class="restaurant-info-title">Pick Up</h2>
+                    <p>Call Us: 0809921834</p>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+    <script src="tabs.js"></script>
+</body>
+</html>

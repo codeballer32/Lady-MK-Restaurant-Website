@@ -1,0 +1,35 @@
+.tab-section {
+    width: 90%;  
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.tabContent {
+    border: 1px solid #eee;
+    padding: 10px;
+
+}
+
+.tabHeader {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1em;
+    padding: 6px 12px;
+    color: #eee;
+    cursor: pointer;
+    
+}
+
+.active-tab {
+    border: 1px solid #eee;
+    border-bottom: none !important;
+}
+
+.hide-tab {
+    display: none;
+}
+
+.show-tab {
+    display: block;
+}

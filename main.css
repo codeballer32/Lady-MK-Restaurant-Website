@@ -1,0 +1,213 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+/* Landing Page */
+#landing-page {
+    background-image: url('images/landingpageimg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+}
+
+.title-container {
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    background: rgb(235, 233, 233);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px black;
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+}
+
+
+/* Nav Lines */
+.nav-lines-container {
+    margin-left: 10px;
+    padding: 3px;
+    cursor: pointer;
+    background-color: #000;
+    opacity: .7;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.lines {
+    background: rgb(235, 233, 233);
+    width: 32px;
+    height: 3px;
+    margin: 5px;
+}
+
+
+/* Nav Section */
+.nav-section {
+    background:  rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+}
+
+
+.close-nav-section {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1.5em;
+    color: rgb(235, 233, 233);
+    float: right;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.openNav {
+    animation:  openNav 0.5s forwards;
+}
+
+.closeNav {
+    animation: closeNav 0.5s forwards;
+}
+
+.nav-sec-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-sec-link li {
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-links {
+    font-size: 2em;
+    text-decoration: none;
+    color: #eee;
+}
+
+
+@keyframes openNav {
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes closeNav {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+/* Menu Section */
+#menu {
+    background: #000;
+    color: #eee;
+    padding-bottom: 20px;
+}
+
+.menu-title {
+    text-align: center;
+    font-size: 2em;
+    color: #eee;
+    padding: 25px;
+}
+
+.activeHeader {
+    margin-top: 0;
+    border-top: 1px #eee;
+}
+
+.hide-tab p {
+    margin-bottom: 0;
+}
+
+.menu-price {
+    float: right;
+}
+
+
+
+
+/* Restaurant Info Section */
+#restaurant-info {
+    background-color: rgba(0, 0, 0, 0.89);
+    color: #eee;
+
+}
+
+.restaurant-info-title {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.7em;
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.info-container p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.address {
+    padding-top: 0;
+}
+
+
+@media screen and (min-width: 568px) {
+    .info-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .address-info, .business-hours {
+        border-right: 1px solid #eee;
+    }
+    .pick-up{
+        padding: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
